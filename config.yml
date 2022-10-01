@@ -33,3 +33,7 @@
           uid: 1204
           group: root
           home: /home/reizen
+
+  - name: Creating motd
+    debug:
+        msg: config.yml
